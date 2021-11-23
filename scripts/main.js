@@ -10,10 +10,10 @@ let message = "Hello";
 // let function = "12345";
 // let message1 = "qwety";
 
-let userName = prompt("Ваше имя?", "");
+let userName = prompt("Ваше имя?", "Пожалуйста");
 alert(`Hello ${userName}`); //Тебя зовут...!
 
-let age = prompt("Укажете ваш год рождения?", "");
+let age = prompt("Укажете ваш год рождения?", "Пример 1990");
 alert(`Тебе ${DATENOW - age} лет!`); //Тебе ... лет
 
 let length = prompt("Длинна стороны квадрата?", "");
